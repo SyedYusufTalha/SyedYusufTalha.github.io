@@ -95,11 +95,8 @@ a:hover .arr { transform: translate(2px, -2px); }
 .portrait { width: 183px; }
 .portrait img {
   display: block; width: 183px; height: auto;
-  filter: grayscale(1) contrast(1.05);
-  transition: filter .5s;
   outline: 1px solid var(--ink); outline-offset: 6px;
 }
-.portrait:hover img { filter: none; }
 .portrait figcaption {
   margin-top: 16px; font-family: "IBM Plex Mono", monospace; font-size: 11.5px; line-height: 1.5; color: var(--soft);
 }
